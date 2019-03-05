@@ -10,13 +10,13 @@
 ################################################################################
 rm(list=ls())                                        # remove all the objects from the R session
 
-workDir <- "C:/Users/cnm006/Documents/RNASeqProject/SARTools.DESeq2.genes"      # working directory for the R session
+workDir <- "/Users/cnm006/Documents/RNASeqProject/SARTools.DESeq2.genes"      # working directory for the R session
 
 projectName <- "SARTools.DESeq2.genes"                         # name of the project
 author <- "Cheyenne McKinley"                                # author of the statistical analysis/report
 
 targetFile <- "../genes.target.txt"                           # path to the design/target file
-rawDir <- "../"                                      # path to the directory containing raw counts files
+rawDir <- "../SARTools"                                      # path to the directory containing raw counts files
 featuresToRemove <- NULL        # names of the features to be removed
 
 varInt <- "Treatment"                                    # factor of interest
